@@ -1,0 +1,242 @@
+{
+  "title": "Vampire the Masquerade",
+  "subtitle": "5th Edition",
+  "header": {
+    "col1": {
+      "fields": {
+        "name": {},
+        "chronicle": {},
+        "sire": {}
+      }
+    },
+    "col2": {
+      "fields": {
+        "concept": {},
+        "ambition": {},
+        "desire": {}
+      }
+    },
+    "col3": {
+      "fields": {
+        "predator": {},
+        "clan": {},
+        "generation": {}
+      }
+    }
+  },
+  "sections": {
+    "mult_xp_cost": 0,
+    "new_xp_cost": 0,
+    "val_start": 0,
+    "val_min": 0,
+    "val_max": 5,
+    "initial_base": 0,
+    "nameable": false,
+    "specialty": false,
+    "field_type": "bar",
+    "fields": {
+      "attributes": {
+        "specialty": true,
+        "mult_xp_cost": 5,
+        "val_start": 1,
+        "initial_base": 1,
+        "fields": {
+          "physical": {
+            "fields": {
+              "strength": {},
+              "dexterity": {},
+              "stamina": {}
+            }
+          },
+          "social": {
+            "fields": {
+              "charisma": {},
+              "manipulation": {},
+              "composure": {}
+            }
+          },
+          "mental": {
+            "fields": {
+              "intelligence": {},
+              "wits": {},
+              "resolve": {}
+            }
+          }
+        }
+      },
+      "abilities": {
+        "mult_xp_cost": 3,
+        "specialty": true,
+        "fields": {
+          "talents": {
+            "fields": {
+              "athletics": {},
+              "brawl": {},
+              "craft": {},
+              "drive": {},
+              "firearms": {},
+              "melee": {},
+              "larceny": {},
+              "stealth": {},
+              "survival": {}
+            }
+          },
+          "skills": {
+            "singluar": "skill",
+            "fields": {
+              "animal_ken": {},
+              "etiquette": {},
+              "insight": {},
+              "intimidation": {},
+              "leadership": {},
+              "performance": {},
+              "persuasion": {},
+              "streetwise": {},
+              "subterfuge": {}
+            }
+          },
+          "knowledges": {
+            "fields": {
+              "academics": {},
+              "awareness": {},
+              "finance": {},
+              "investigation": {},
+              "medicine": {},
+              "occult": {},
+              "politics": {},
+              "science": {},
+              "technology": {}
+            }
+          }
+        }
+      },
+      "details": {
+        "fields": {
+          "disciplines": {
+            "mult_xp_cost": 7,
+            "mult_xp_cost_caitiff": 6,
+            "mult_xp_cost_clan": 5,
+            "initial_base": 0,
+            "val_start": 0,
+            "fields": {
+                "animalism": {},
+                "auspex": {},
+                "celerity": {},
+                "dominate": {},
+                "fortitude": {},
+                "obfuscate": {},
+                "potence": {},
+                "presence": {},
+                "protean": {},
+                "blood_sorcery": {},
+                "oblivion": {},
+                "thin-blood-alchemy": {}
+            }
+          },
+          "advantages and flaws": {
+            "field_type": "name_val",
+            "fields": {}
+          },
+          "other": {
+            "mult_xp_cost": 10,
+            "initial_base": 0,
+            "val_start": 0,
+            "fields": {
+              "blood_potency": {
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "clan": {
+    "brujah": {
+      "disciplines": ["celerity", "potence", "presence"]
+    },
+    "gangrel": {
+      "disciplines": ["animalism", "fortitude", "protean"]
+    },
+    "malkavian": {
+      "disciplines": ["auspex", "dominate", "obfuscate"]
+    },
+    "nosferatu": {
+      "disciplines": ["animalism", "obfuscate", "potence"]
+    },
+    "ravnos": {
+      "disciplines": ["animalism", "chimerstry", "fortitude"]
+    },
+    "toreador": {
+      "disciplines": ["auspex", "celerity", "presence"]
+    },
+    "tremere": {
+      "disciplines": ["auspex", "dominate", "blood_sorcery"]
+    },
+    "ventrue": {
+      "disciplines": ["dominate", "fortitude", "presence"]
+    },
+    "lasombra": {
+      "disciplines": ["dominate", "potence", "oblivion"]
+    },
+    "thin-blood": {
+      "disciplines": ["thin-blood-alchemy"]
+    },
+    "caitiff": {
+      "disciplines": []
+    },
+    "human": {
+      "disciplines": []
+    },
+    "animal": {
+      "disciplines": []
+    },
+    "werewolf": {
+      "disciplines": ["celerity", "potence", "protean"]
+    },
+    "mage": {
+      "disciplines": ["auspex", "dominate", "fortitude", "presence", "blood_sorcery"]
+    },
+    "faerie": {
+      "disciplines": ["animalism", "auspex", "celerity", "obfuscate", "protean"]
+    },
+    "ghost": {
+      "disciplines": ["auspex", "dominate", "presence"]
+    },
+    "demon": {
+      "disciplines": ["dominate", "potence", "fortitude"]
+    }
+  },
+  "generation_table": {
+    "hdr": ["trait_max", "blood_pool_max", "blood_per_turn"],
+    "3": [10, 100, 20],
+    "4": [9, 50, 10],
+    "5": [8, 40, 8],
+    "6": [7, 30, 6],
+    "7": [6, 20, 4],
+    "8": [5, 15, 3],
+    "9": [5, 14, 2],
+    "10": [5, 13, 1],
+    "11": [5, 12, 1],
+    "12": [5, 11, 1],
+    "13": [5, 10, 1]
+  },
+  "hunger": {
+    "5": {
+      "state": "Torpor",
+      "penalty": 0
+    }
+  },
+  "health": {
+    "0": {
+      "state": "Impaired",
+      "penalty": -2
+    }
+  },
+  "will": {
+    "0": {
+      "state": "Impaired",
+      "penalty": -2
+    }
+  },
+  "postfixes": ["base", "xp"]
+}

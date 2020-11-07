@@ -1,0 +1,6 @@
+name: v5e_sheet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jinja2
