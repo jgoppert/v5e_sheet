@@ -178,6 +178,9 @@
     "lasombra": {
       "disciplines": ["dominate", "potence", "oblivion"]
     },
+    "hecata": {
+      "disciplines": ["auspex", "obfuscate", "oblivion"]
+    },
     "thin-blood": {
       "disciplines": ["thin-blood-alchemy"]
     },
